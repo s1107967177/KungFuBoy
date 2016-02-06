@@ -1,0 +1,210 @@
+<Solution>
+  <PropertyGroup Name="KungFuBoy" Version="2.3.2.3" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="StartScene.csd" Type="Scene" />
+        <PlistImageFolder Image="startGame.png" PListFile="startGame.plist" Name=".startGame_PList.Dir">
+          <PlistImageFile Name="ChallengeNormal.png" Key="ChallengeNormal.png" />
+          <PlistImageFile Name="ChallengeSelected.png" Key="ChallengeSelected.png" />
+          <PlistImageFile Name="CheatsNormal.png" Key="CheatsNormal.png" />
+          <PlistImageFile Name="CheatsSelected.png" Key="CheatsSelected.png" />
+          <PlistImageFile Name="EmigratedNormal.png" Key="EmigratedNormal.png" />
+          <PlistImageFile Name="EmigratedSelected.png" Key="EmigratedSelected.png" />
+          <PlistImageFile Name="HelpNormal.png" Key="HelpNormal.png" />
+          <PlistImageFile Name="HelpSelected.png" Key="HelpSelected.png" />
+          <PlistImageFile Name="MainMenuBackground.png" Key="MainMenuBackground.png" />
+          <PlistImageFile Name="PhotoGalleryNormal.png" Key="PhotoGalleryNormal.png" />
+          <PlistImageFile Name="PhotoGallerySelected.png" Key="PhotoGallerySelected.png" />
+          <PlistImageFile Name="SetNormal.png" Key="SetNormal.png" />
+          <PlistImageFile Name="SetSelected.png" Key="SetSelected.png" />
+          <PlistImageFile Name="Title.png" Key="Title.png" />
+        </PlistImageFolder>
+        <Project Name="LogoScene.csd" Type="Scene" />
+        <Image Name="logo.png" />
+        <Project Name="MijiScene.csd" Type="Scene" />
+        <PlistImageFolder Image="cheatsLayer.png" PListFile="cheatsLayer.plist" Name=".cheatsLayer_PList.Dir">
+          <PlistImageFile Name="CheatsBackground.png" Key="CheatsBackground.png" />
+          <PlistImageFile Name="CheatsInterface1.png" Key="CheatsInterface1.png" />
+          <PlistImageFile Name="CheatsInterface2.png" Key="CheatsInterface2.png" />
+          <PlistImageFile Name="OffNormal.png" Key="OffNormal.png" />
+          <PlistImageFile Name="OffSelected.png" Key="OffSelected.png" />
+          <PlistImageFile Name="PageTurnNormal.png" Key="PageTurnNormal.png" />
+          <PlistImageFile Name="PageTurnSelected.png" Key="PageTurnSelected.png" />
+        </PlistImageFolder>
+        <PlistImageFolder Image="galleryLayer.png" PListFile="galleryLayer.plist" Name=".galleryLayer_PList.Dir">
+          <PlistImageFile Name="CellSel_0.png" Key="CellSel_0.png" />
+          <PlistImageFile Name="CellSel_1.png" Key="CellSel_1.png" />
+          <PlistImageFile Name="CellSel_2.png" Key="CellSel_2.png" />
+          <PlistImageFile Name="CellSel_3.png" Key="CellSel_3.png" />
+          <PlistImageFile Name="Cell_0.png" Key="Cell_0.png" />
+          <PlistImageFile Name="Cell_1.png" Key="Cell_1.png" />
+          <PlistImageFile Name="Cell_2.png" Key="Cell_2.png" />
+          <PlistImageFile Name="Cell_3.png" Key="Cell_3.png" />
+          <PlistImageFile Name="GalleryOffNormal.png" Key="GalleryOffNormal.png" />
+          <PlistImageFile Name="GalleryOffSelected.png" Key="GalleryOffSelected.png" />
+          <PlistImageFile Name="ManLion.png" Key="ManLion.png" />
+          <PlistImageFile Name="ManStone.png" Key="ManStone.png" />
+          <PlistImageFile Name="ManWood.png" Key="ManWood.png" />
+          <PlistImageFile Name="Text.png" Key="Text.png" />
+        </PlistImageFolder>
+        <Project Name="TujiScene.csd" Type="Scene" />
+        <Image Name="PhotoGalleryBackground.png" />
+        <Project Name="SetScene.csd" Type="Scene" />
+        <PlistImageFolder Image="setLayer.png" PListFile="setLayer.plist" Name=".setLayer_PList.Dir">
+          <PlistImageFile Name="BGPicSet.png" Key="BGPicSet.png" />
+          <PlistImageFile Name="Hook.png" Key="Hook.png" />
+          <PlistImageFile Name="RestoreSettings.png" Key="RestoreSettings.png" />
+          <PlistImageFile Name="SaveSettings.png" Key="SaveSettings.png" />
+          <PlistImageFile Name="ThumbBtn.png" Key="ThumbBtn.png" />
+          <PlistImageFile Name="bgBar.png" Key="bgBar.png" />
+          <PlistImageFile Name="closeSetNormal.png" Key="closeSetNormal.png" />
+          <PlistImageFile Name="closeSetSelected.png" Key="closeSetSelected.png" />
+          <PlistImageFile Name="image-0.png" Key="image-0.png" />
+          <PlistImageFile Name="progressBar.png" Key="progressBar.png" />
+          <PlistImageFile Name="unchecked.png" Key="unchecked.png" />
+        </PlistImageFolder>
+        <Project Name="HelpScene.csd" Type="Scene" />
+        <Image Name="TitleLogo.png" />
+        <Image Name="Help.png" />
+        <Project Name="GateMapScene.csd" Type="Scene" />
+        <PlistImageFolder Image="gateMap.png" PListFile="gateMap.plist" Name=".gateMap_PList.Dir">
+          <PlistImageFile Name="CloseNormal.png" Key="CloseNormal.png" />
+          <PlistImageFile Name="CloseSelected.png" Key="CloseSelected.png" />
+          <PlistImageFile Name="GateMapBG.png" Key="GateMapBG.png" />
+          <PlistImageFile Name="Gate_1.png" Key="Gate_1.png" />
+          <PlistImageFile Name="Gate_2.png" Key="Gate_2.png" />
+          <PlistImageFile Name="Gate_3.png" Key="Gate_3.png" />
+          <PlistImageFile Name="StarBig.png" Key="StarBig.png" />
+          <PlistImageFile Name="StarLittle.png" Key="StarLittle.png" />
+          <PlistImageFile Name="noEnergy.png" Key="noEnergy.png" />
+          <PlistImageFile Name="rollerNormal.png" Key="rollerNormal.png" />
+          <PlistImageFile Name="rollerSelected.png" Key="rollerSelected.png" />
+          <PlistImageFile Name="tiaozhanNormal.png" Key="tiaozhanNormal.png" />
+          <PlistImageFile Name="tiaozhanSelected.png" Key="tiaozhanSelected.png" />
+        </PlistImageFolder>
+        <Project Name="GameScene.csd" Type="Scene" />
+        <PlistImageFolder Image="gameLayer.png" PListFile="gameLayer.plist" Name=".gameLayer_PList.Dir">
+          <PlistImageFile Name="HPBar.png" Key="HPBar.png" />
+          <PlistImageFile Name="MPBar.png" Key="MPBar.png" />
+          <PlistImageFile Name="barGround.png" Key="barGround.png" />
+          <PlistImageFile Name="comboBtn1.png" Key="comboBtn1.png" />
+          <PlistImageFile Name="comboBtn2.png" Key="comboBtn2.png" />
+          <PlistImageFile Name="comboBtn3.png" Key="comboBtn3.png" />
+          <PlistImageFile Name="directForNor.png" Key="directForNor.png" />
+          <PlistImageFile Name="directForSel.png" Key="directForSel.png" />
+          <PlistImageFile Name="directionNormal.png" Key="directionNormal.png" />
+          <PlistImageFile Name="directionSelected.png" Key="directionSelected.png" />
+          <PlistImageFile Name="fist.png" Key="fist.png" />
+          <PlistImageFile Name="foot.png" Key="foot.png" />
+          <PlistImageFile Name="jiao.png" Key="jiao.png" />
+          <PlistImageFile Name="jump.png" Key="jump.png" />
+          <PlistImageFile Name="pauseNormal.png" Key="pauseNormal.png" />
+          <PlistImageFile Name="pauseSelected.png" Key="pauseSelected.png" />
+          <PlistImageFile Name="quan.png" Key="quan.png" />
+          <PlistImageFile Name="tiao.png" Key="tiao.png" />
+        </PlistImageFolder>
+        <Project Name="PauseScene.csd" Type="Scene" />
+        <PlistImageFolder Image="pauseLayer.png" PListFile="pauseLayer.plist" Name=".pauseLayer_PList.Dir">
+          <PlistImageFile Name="againNormal.png" Key="againNormal.png" />
+          <PlistImageFile Name="againSelected.png" Key="againSelected.png" />
+          <PlistImageFile Name="backNormal.png" Key="backNormal.png" />
+          <PlistImageFile Name="backSelected.png" Key="backSelected.png" />
+          <PlistImageFile Name="musicOff.png" Key="musicOff.png" />
+          <PlistImageFile Name="musicOn.png" Key="musicOn.png" />
+          <PlistImageFile Name="musicSelected.png" Key="musicSelected.png" />
+          <PlistImageFile Name="nextDisable.png" Key="nextDisable.png" />
+          <PlistImageFile Name="nextNormal.png" Key="nextNormal.png" />
+          <PlistImageFile Name="nextSelected.png" Key="nextSelected.png" />
+          <PlistImageFile Name="pauseBG1.png" Key="pauseBG1.png" />
+          <PlistImageFile Name="pauseBG2.png" Key="pauseBG2.png" />
+          <PlistImageFile Name="playNormal.png" Key="playNormal.png" />
+          <PlistImageFile Name="playSelected.png" Key="playSelected.png" />
+        </PlistImageFolder>
+        <PlistImageFolder Image="monster.png" PListFile="monster.plist" Name=".monster_PList.Dir">
+          <PlistImageFile Name="lionA1.png" Key="lionA1.png" />
+          <PlistImageFile Name="lionA2.png" Key="lionA2.png" />
+          <PlistImageFile Name="lionA3.png" Key="lionA3.png" />
+          <PlistImageFile Name="lionA4.png" Key="lionA4.png" />
+          <PlistImageFile Name="lionA5.png" Key="lionA5.png" />
+          <PlistImageFile Name="lionA7.png" Key="lionA7.png" />
+          <PlistImageFile Name="lionA8.png" Key="lionA8.png" />
+          <PlistImageFile Name="lionDie1.png" Key="lionDie1.png" />
+          <PlistImageFile Name="lionDie10.png" Key="lionDie10.png" />
+          <PlistImageFile Name="lionDie11.png" Key="lionDie11.png" />
+          <PlistImageFile Name="lionDie2.png" Key="lionDie2.png" />
+          <PlistImageFile Name="lionDie3.png" Key="lionDie3.png" />
+          <PlistImageFile Name="lionDie4.png" Key="lionDie4.png" />
+          <PlistImageFile Name="lionDie5.png" Key="lionDie5.png" />
+          <PlistImageFile Name="lionDie6.png" Key="lionDie6.png" />
+          <PlistImageFile Name="lionDie7.png" Key="lionDie7.png" />
+          <PlistImageFile Name="lionDie8.png" Key="lionDie8.png" />
+          <PlistImageFile Name="lionDie9.png" Key="lionDie9.png" />
+          <PlistImageFile Name="lionHurt1.png" Key="lionHurt1.png" />
+          <PlistImageFile Name="lionHurt2.png" Key="lionHurt2.png" />
+          <PlistImageFile Name="lionHurt3.png" Key="lionHurt3.png" />
+          <PlistImageFile Name="lionMan.png" Key="lionMan.png" />
+          <PlistImageFile Name="lionWalk1.png" Key="lionWalk1.png" />
+          <PlistImageFile Name="lionWalk2.png" Key="lionWalk2.png" />
+          <PlistImageFile Name="lionWalk3.png" Key="lionWalk3.png" />
+          <PlistImageFile Name="lionWalk4.png" Key="lionWalk4.png" />
+          <PlistImageFile Name="monsterA1.png" Key="monsterA1.png" />
+          <PlistImageFile Name="monsterA10.png" Key="monsterA10.png" />
+          <PlistImageFile Name="monsterA11.png" Key="monsterA11.png" />
+          <PlistImageFile Name="monsterA12.png" Key="monsterA12.png" />
+          <PlistImageFile Name="monsterA13.png" Key="monsterA13.png" />
+          <PlistImageFile Name="monsterA14.png" Key="monsterA14.png" />
+          <PlistImageFile Name="monsterA2.png" Key="monsterA2.png" />
+          <PlistImageFile Name="monsterA3.png" Key="monsterA3.png" />
+          <PlistImageFile Name="monsterA4.png" Key="monsterA4.png" />
+          <PlistImageFile Name="monsterA5.png" Key="monsterA5.png" />
+          <PlistImageFile Name="monsterA6.png" Key="monsterA6.png" />
+          <PlistImageFile Name="monsterA7.png" Key="monsterA7.png" />
+          <PlistImageFile Name="monsterA8.png" Key="monsterA8.png" />
+          <PlistImageFile Name="monsterA9.png" Key="monsterA9.png" />
+          <PlistImageFile Name="monsterDie1.png" Key="monsterDie1.png" />
+          <PlistImageFile Name="monsterDie2.png" Key="monsterDie2.png" />
+          <PlistImageFile Name="monsterDie3.png" Key="monsterDie3.png" />
+          <PlistImageFile Name="monsterDie4.png" Key="monsterDie4.png" />
+          <PlistImageFile Name="monsterDie5.png" Key="monsterDie5.png" />
+          <PlistImageFile Name="monsterDie6.png" Key="monsterDie6.png" />
+          <PlistImageFile Name="monsterHurt1.png" Key="monsterHurt1.png" />
+          <PlistImageFile Name="monsterHurt2.png" Key="monsterHurt2.png" />
+          <PlistImageFile Name="monsterHurt3.png" Key="monsterHurt3.png" />
+          <PlistImageFile Name="monsterWalk1.png" Key="monsterWalk1.png" />
+          <PlistImageFile Name="monsterWalk2.png" Key="monsterWalk2.png" />
+          <PlistImageFile Name="monsterWalk3.png" Key="monsterWalk3.png" />
+          <PlistImageFile Name="monsterWalk4.png" Key="monsterWalk4.png" />
+          <PlistImageFile Name="monsterWalk5.png" Key="monsterWalk5.png" />
+          <PlistImageFile Name="stoneA1.png" Key="stoneA1.png" />
+          <PlistImageFile Name="stoneA10.png" Key="stoneA10.png" />
+          <PlistImageFile Name="stoneA11.png" Key="stoneA11.png" />
+          <PlistImageFile Name="stoneA12.png" Key="stoneA12.png" />
+          <PlistImageFile Name="stoneA2.png" Key="stoneA2.png" />
+          <PlistImageFile Name="stoneA3.png" Key="stoneA3.png" />
+          <PlistImageFile Name="stoneA4.png" Key="stoneA4.png" />
+          <PlistImageFile Name="stoneA5.png" Key="stoneA5.png" />
+          <PlistImageFile Name="stoneA6.png" Key="stoneA6.png" />
+          <PlistImageFile Name="stoneA7.png" Key="stoneA7.png" />
+          <PlistImageFile Name="stoneA8.png" Key="stoneA8.png" />
+          <PlistImageFile Name="stoneA9.png" Key="stoneA9.png" />
+          <PlistImageFile Name="stoneDie1.png" Key="stoneDie1.png" />
+          <PlistImageFile Name="stoneDie2.png" Key="stoneDie2.png" />
+          <PlistImageFile Name="stoneDie3.png" Key="stoneDie3.png" />
+          <PlistImageFile Name="stoneDie4.png" Key="stoneDie4.png" />
+          <PlistImageFile Name="stoneDie5.png" Key="stoneDie5.png" />
+          <PlistImageFile Name="stoneDie6.png" Key="stoneDie6.png" />
+          <PlistImageFile Name="stoneDie7.png" Key="stoneDie7.png" />
+          <PlistImageFile Name="stoneDie8.png" Key="stoneDie8.png" />
+          <PlistImageFile Name="stoneHurt1.png" Key="stoneHurt1.png" />
+          <PlistImageFile Name="stoneHurt2.png" Key="stoneHurt2.png" />
+          <PlistImageFile Name="stoneHurt3.png" Key="stoneHurt3.png" />
+          <PlistImageFile Name="stoneMan.png" Key="stoneMan.png" />
+          <PlistImageFile Name="stoneWalk1.png" Key="stoneWalk1.png" />
+          <PlistImageFile Name="stoneWalk2.png" Key="stoneWalk2.png" />
+          <PlistImageFile Name="stoneWalk3.png" Key="stoneWalk3.png" />
+        </PlistImageFolder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
